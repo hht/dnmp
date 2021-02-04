@@ -21,7 +21,7 @@ class MailerController extends AdminBaseController
      * @adminMenu(
      *     'name'   => '邮箱配置',
      *     'parent' => 'admin/Setting/default',
-     *     'display'=> true,
+     *     'display'=> false,
      *     'hasView'=> true,
      *     'order'  => 10,
      *     'icon'   => '',
