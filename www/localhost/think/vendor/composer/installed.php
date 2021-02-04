@@ -1,8 +1,8 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v6.0.0',
-    'version' => '6.0.0.0',
+    'pretty_version' => '1.0.0+no-version-set',
+    'version' => '1.0.0.0',
     'aliases' => 
     array (
     ),
@@ -11,6 +11,15 @@
   ),
   'versions' => 
   array (
+    'aferrandini/phpqrcode' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3c1c0454d43710ab5bbe19a51ad4cb41c22e3d46',
+    ),
     'doctrine/annotations' => 
     array (
       'pretty_version' => '1.11.1',
@@ -274,8 +283,8 @@
     ),
     'thinkcmf/thinkcmf' => 
     array (
-      'pretty_version' => 'v6.0.0',
-      'version' => '6.0.0.0',
+      'pretty_version' => '1.0.0+no-version-set',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),

@@ -1935,17 +1935,17 @@ audio, video, canvas {
 }
 
 .post-details .post-categories{
-    display: block;
+    display: inline;
     margin-bottom: 1rem;
 }
 
-.post-details .post-categories a{
+.post-details .post-categories span{
     position: relative;
-    color: #F023B6;
+    color: #FFA000;
     padding: 4px 15px;
     margin-right: 3px;
     display: inline-block;
-    border: 1px solid #F023B6;
+    border: 1px solid #FFA000;
     border-radius: 50px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -1954,16 +1954,11 @@ audio, video, canvas {
     transition: all .3s ease-in-out;
 }
 
-.post-details .post-categories a:hover{
-    color: #fff;
-    background-color: #F023B6;
-}
-
 .post-details{
     font-size: 13px;
     line-height: 2;
     font-weight: 400;
-    color: #939393;
+    color: #efefef;
     margin-bottom: 15px;
 }
 
@@ -1974,6 +1969,7 @@ audio, video, canvas {
 .post-title{
     font-size: 1.7rem;
     margin-bottom: 1rem;
+    color:#fff;
 }
 
 /* blog post navigation */
@@ -3343,6 +3339,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
     .post-title {
         font-size: 1.5rem;
+        color:#fff;
     }
 
     .page-title h2 {

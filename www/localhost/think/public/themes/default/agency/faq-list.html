@@ -1,0 +1,33 @@
+<php>
+    use app\admin\model\FaqModel;
+    $faqModel = new FaqModel();
+    $articles     = $faqModel->select();
+</php> 
+<div class="container">
+  <div class="row">
+      <div class="col-lg-12">
+          <!--Post-->
+          <php>foreach($articles as $article){</php>
+          <article class="blog-classic">
+              <!--Post Meta-->
+              <h2 class="post-title">{$article.title}</h2>
+              <div class="post-details alt-font">
+              <php>
+                $keywords = preg_split("/(;|,|；|，| )/",str_replace(" ",'',$article->keywords));
+                foreach($keywords as $keyword){
+              </php>
+              <span class="post-categories">
+                 <span>{$keyword}</span>
+                </span>
+              <php>}</php>
+                </div>
+              <div class="post-details">
+                {$article.description}
+              </div>
+          </article>
+          <php>}</php>
+        </php>
+      </div>
+  </div>
+</div>
+</section>

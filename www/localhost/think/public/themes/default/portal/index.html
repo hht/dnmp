@@ -33,7 +33,6 @@
         <div class="dot dot-2"></div>
         <div class="dot dot-3"></div>
     </div>
-
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
             <filter id="goo">
@@ -65,10 +64,10 @@
             <div class="collapse navbar-collapse" id="agency">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link link scroll active" href="#home">首页</a>
-                    <a class="nav-link link scroll" href="#product">产品</a>
-                    <a class="nav-link link scroll" href="#portfolio">动态</a>
-                    <a class="nav-link link scroll" href="#clients">教程</a>
-                    <a class="nav-link link scroll" href="#blog">问题</a>
+                    <a class="nav-link link scroll active" href="#team">团队介绍</a>
+                    <a class="nav-link link scroll" href="#product">产品优势</a>
+                    <a class="nav-link link scroll" href="#faq">常见问题</a>
+                    <a class="nav-link link scroll" href="#cooperation">商务合作</a>
                     <a class="nav-link link scroll" href="#contact">关于</a>
                     <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
                 </div>
@@ -102,21 +101,21 @@
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">首页</span>
                         </a></li>
+                        <li><a class="link scroll" href="#team">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">团队介绍</span>
+                        </a></li>
                         <li><a class="link scroll" href="#product">
                             <span class="anchor-circle"></span>
-                            <span class="anchor-text">产品</span>
+                            <span class="anchor-text">产品优势</span>
                         </a></li>
-                        <li><a class="link scroll" href="#portfolio">
+                        <li><a class="link scroll" href="#faq">
                             <span class="anchor-circle"></span>
-                            <span class="anchor-text">动态</span>
+                            <span class="anchor-text">常见问题</span>
                         </a></li>
-                        <li><a class="link scroll" href="#clients">
+                        <li><a class="link scroll" href="#cooperation">
                             <span class="anchor-circle"></span>
-                            <span class="anchor-text">教程</span>
-                        </a></li>
-                        <li><a class="link scroll" href="#blog">
-                            <span class="anchor-circle"></span>
-                            <span class="anchor-text">问题</span>
+                            <span class="anchor-text">商务合作</span>
                         </a></li>
                         <li><a class="link scroll" href="#contact">
                             <span class="anchor-circle"></span>
@@ -137,86 +136,6 @@
                 <img alt="shape" src="__TMPL__/agency/img/shape-7.png">
             </div>
         </div>
-    </div>
-
-    <!--Get Quote Model Popup-->
-    <div class="animated-modal hidden quote-content" id="animatedModal">
-        <!--Heading-->
-        <div class="heading-area pb-2 mx-570">
-            <span class="sub-title">We are megaone company</span>
-            <h2 class="title mt-2">Lets start your <span class="alt-color js-rotating">project, website</span></h2>
-        </div>
-        <!--Contact Form-->
-        <form class="contact-form" id="modal-contact-form-data">
-            <div class="row">
-                <!--Result-->
-                <div class="col-12" id="quote_result"></div>
-
-                <!--Left Column-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required=""
-                               type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required=""
-                               type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type" required=""
-                               type="text">
-                    </div>
-                </div>
-
-                <!--Right Column-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required=""
-                               type="email">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country"
-                               required="" type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget" required=""
-                               type="text">
-                    </div>
-                </div>
-
-                <!--Full Column-->
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <textarea class="form-control" id="quote_message"
-                                  name="userMessage" placeholder="Please explain your project in detail."></textarea>
-                    </div>
-                </div>
-
-                <!--Button-->
-                <div class="col-md-12">
-
-                    <div class="form-check">
-                        <label class="checkbox-lable">Contact by phone ins preffered
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-
-                    <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn" href="javascript:void(0);"
-                       id="quote_submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
-                        <div class="btn-hvr-setting">
-                            <ul class="btn-hvr-setting-inner">
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </form>
     </div>
 
 </header>
@@ -544,7 +463,7 @@
 <!--Slider End-->
 
 <!--About Us-->
-<section class="pb-0" id="product">
+<section class="pb-0" id="team">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 wow fadeInLeft">
@@ -650,7 +569,7 @@
 <!--Counters End-->
 
 <!--Team Start-->
-<section class="text-center" id="team">
+<section class="text-center" id="product">
     <div class="container">
         <!--Row-->
         <div class="row">
@@ -735,61 +654,13 @@
 <!--Parallax End-->
 
 <!--Testimonial Start-->
-<section class="gradient-bg1 text-center" id="clients">
-    <div class="container">
-
-        <!--Row-->
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Collapsible Group Item #1
-                      </button>
-                    </h2>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Some placeholder content for the second accordion panel. This panel is hidden by default.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                    </div>
-                  </div>
-                </div>
-              </div>
-    </div>
+<section class="gradient-bg1 text-center" id="faq">
+    <include file="../agency/faq-list" />
 </section>
 <!--Testimonial End-->
 
 <!--Blog Start-->
-<section class="bg-light" id="blog">
+<section class="bg-light" id="cooperation">
     <div class="container">
         <!--Row-->
         <div class="row">
@@ -806,7 +677,7 @@
                 <div class="news-item">
                     <img alt="image" class="news-img" src="__TMPL__/agency/img/art-1.jpg">
                     <div class="news-text-box">
-                        <a href="__TMPL__/agency/blog-list.html"><h4 class="news-title">独立运营</h4></a>
+                        <h4 class="news-title">独立运营</h4>
                         <p class="para">您可以购买我们的全套产品独立部署运营，由我们提供技术支持</p>
                     </div>
                 </div>
@@ -816,7 +687,7 @@
                 <div class="news-item">
                     <img alt="image" class="news-img" src="__TMPL__/agency/img/art-2.jpg">
                     <div class="news-text-box">
-                        <a href="__TMPL__/agency/blog-list.html"><h4 class="news-title">产品代理</h4></a>
+                        <h4 class="news-title">产品代理</h4>
                         <p class="para">您可以代理我们的产品，零成本运营，降低风险</p>
                     </div>
                 </div>
@@ -826,7 +697,7 @@
                 <div class="news-item">
                     <img alt="image" class="news-img" src="__TMPL__/agency/img/art-3.jpg">
                     <div class="news-text-box">
-                        <a href="javascript:void(0);"><h4 class="news-title">广告合作</h4></a>
+                        <h4 class="news-title">广告合作</h4>
                         <p class="para">您可以在我们的产品中投放广告，获取更多曝光率</p>
                     </div>
                 </div>
@@ -835,38 +706,6 @@
     </div>
 </section>
 <!--Blog End-->
-
-<!--Client Map-->
-<section class="gradient-bg2" id="client">
-    <h2 class="d-none">hidden</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <!--Client Slider-->
-                <div class="owl-carousel partners-slider">
-                    <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-1.png"></div>
-                    <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-2.png"></div>
-                    <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-3.png"></div>
-                    <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-4.png"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Client End-->
-
-<!--Map Start-->
-<div class="p-0 gradient-bg2 map-area">
-    <div class="container">
-        <!--Map Initialize-->
-        <div class="full-map" id="map"></div>
-    </div>
-</div>
-<!--Map End-->
 
 <!--Contact Start-->
 <section class="contact-us" id="contact">
@@ -880,29 +719,21 @@
                     <div class="contact-dots" data-dots=""></div>
                     <!--Heading-->
                     <div class="heading-area pb-5">
-                        <h2 class="title mt-0 pb-1">Our Location</h2>
-                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered .</p>
+                        <h2 class="title mt-0 pb-1">联系我们</h2>
+                        <p class="para">您可以通过电话或邮件联系我们 .</p>
                     </div>
 
                     <!--Address-->
                     <ul class="address list-unstyled">
                         <li>
                             <span class="address-icon gradient-text2"><i aria-hidden="true"
-                                                                         class="fas fa-map-marker-alt"></i></span>
-                            <span class="address-text">123 Park Avenue, New York,United States</span>
-                        </li>
-                        <li>
-                            <span class="address-icon gradient-text2"><i aria-hidden="true"
                                                                          class="fas fa-phone-volume"></i></span>
-                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">+1 631 1234 5678</a><a
-                                    href="javascript:void(0)">+1 631 1234 5678</a></span>
+                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">{$site_info.site_admin_phone}</a></span>
                         </li>
                         <li>
                             <span class="address-icon gradient-text2"><i aria-hidden="true"
                                                                          class="fas fa-paper-plane"></i></span>
-                            <span class="address-text"><a class="mr-3 alt-color" href="javascript:void(0)">email@website.com</a><a
-                                    class="mr-3 alt-color" href="javascript:void(0)">abc@website.com</a></span>
+                            <span class="address-text"><a class="mr-3 alt-color" href="javascript:void(0)">{$site_info.site_admin_email}</a></span>
                         </li>
                     </ul>
                 </div>
@@ -911,55 +742,21 @@
             <div class="col-lg-7 mt-4 pt-3 mt-lg-0 pt-lg-0 wow fadeInLeft">
                 <!--Heading-->
                 <div class="heading-area pb-2">
-                    <h2 class="title mt-0">Get In Touch</h2>
+                    <h2 class="title mt-0">立即体验</h2>
+                    <div class="row">
+                    <div class="col-6">
+                        苹果下载
+                    <div id="ios_url"></div>
+                    
+                    </div>
+                    <div class="col-6">
+                        安卓下载
+                    <div id="android_url"></div>
+                </div>
+                </div>
                 </div>
                 <!--Contact Form-->
-                <form class="contact-form" id="contact-form-data">
-                    <div class="row">
-                        <!--Result-->
-                        <div class="col-12" id="result"></div>
-
-                        <!--Left Column-->
-                        <div class="col-md-5">
-                            <div class="form-group">
-                                <input class="form-control" id="your_name" name="userName" placeholder="Name" required=""
-                                       type="text">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="your_email" name="userEmail" placeholder="Email" required=""
-                                       type="email">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="subject" name="userSubject" placeholder="Subject" required=""
-                                       type="text">
-                            </div>
-                        </div>
-
-                        <!--Right Column-->
-                        <div class="col-md-7">
-                            <div class="form-group">
-                                <textarea class="form-control" id="message" name="userMessage"
-                                          placeholder="Message"></textarea>
-                            </div>
-                        </div>
-
-                        <!--Button-->
-                        <div class="col-md-12">
-                            <a class="btn btn-large btn-rounded btn-purple btn-hvr-blue d-block mt-4 contact_btn" href="javascript:void(0);"
-                               id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
-                                <div class="btn-hvr-setting">
-                                    <ul class="btn-hvr-setting-inner">
-                                        <li class="btn-hvr-effect"></li>
-                                        <li class="btn-hvr-effect"></li>
-                                        <li class="btn-hvr-effect"></li>
-                                        <li class="btn-hvr-effect"></li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </form>
+                
             </div>
 
         </div>
@@ -975,26 +772,11 @@
         <div class="row align-items-center">
             <!--Social-->
             <div class="col-md-6">
-                <div class="footer-social">
-                    <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-linkedin-in"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-pinterest-p"></i></a></li>
-                    </ul>
-                </div>
+               
             </div>
             <!--Text-->
             <div class="col-md-6 text-md-right">
-                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
+                <p class="company-about fadeIn">© 2020 无双团队
                 </p>
             </div>
         </div>
@@ -1025,6 +807,8 @@
 <script src="__TMPL__/vendor/js/TweenMax.min.js"></script>
 <script src="__TMPL__/vendor/js/wow.min.js"></script>
 <script src="__TMPL__/vendor/js/jquery.cubeportfolio.min.js"></script>
+<script src="__TMPL__/vendor/js/qrcode.min.js"></script>
+
 <!-- REVOLUTION JS FILES -->
 <script src="__TMPL__/vendor/js/jquery.themepunch.tools.min.js"></script>
 <script src="__TMPL__/vendor/js/jquery.themepunch.revolution.min.js"></script>
@@ -1041,6 +825,24 @@
 <!-- custom script -->
 <script src="__TMPL__/vendor/js/contact_us.js"></script>
 <script src="__TMPL__/agency/js/script.js"></script>
+<script>
+    new QRCode(document.getElementById("ios_url"), {
+	text: `{$site_info.ios_url}`,
+	width: 128,
+	height: 128,
+	colorDark : "#000000",
+	colorLight : "#ffffff",
+	correctLevel : QRCode.CorrectLevel.H
+});
 
+new QRCode(document.getElementById("android_url"), {
+	text: `{$site_info.android_url}`,
+	width: 128,
+	height: 128,
+	colorDark : "#000000",
+	colorLight : "#ffffff",
+	correctLevel : QRCode.CorrectLevel.H
+});
+</script>
 </body>
 </html>

@@ -229,6 +229,13 @@ class ComposerStaticInitd61b58c8781ebb98cf0216731fe95879
     );
 
     public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PHPQRCode' => 
+            array (
+                0 => __DIR__ . '/..' . '/aferrandini/phpqrcode/lib',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 

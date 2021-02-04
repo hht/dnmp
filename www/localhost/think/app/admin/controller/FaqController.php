@@ -60,6 +60,13 @@ class FaqController extends AdminBaseController
         return $this->fetch();
     }
 
+    public function all()
+    {
+        $faqModel = new FaqModel();
+        $links     = $faqModel->select();
+        return $links;
+    }
+
     /**
      * 添加友情链接提交保存
      * @adminMenu(
