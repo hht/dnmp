@@ -1,0 +1,41 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('faq/index')}">所有问题</a></li>
+        <li><a href="{:url('faq/add')}">添加问题</a></li>
+        <li class="active"><a>编辑问题</a></li>
+    </ul>
+    <form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('faq/editPost')}">
+        <div class="form-group">
+            <label for="input-link_name" class="col-sm-2 control-label">问题<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-link_name" name="title" value="{$link.title}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="input-link_keywords" class="col-sm-2 control-label">关键字<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-link_keywords" name="keywords" value="{$link.keywords}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="input-link_url" class="col-sm-2 control-label">答案<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <textarea class="form-control" name="description"
+                          id="input-link_description">{$link.description}</textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="hidden" name="id" value="{$link.id}">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('SAVE')}</button>
+                <a class="btn btn-default" href="{:url('faq/index')}">{:lang('BACK')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+</body>
+</html>
