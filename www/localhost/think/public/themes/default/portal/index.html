@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- description -->
+    <meta name="description" content="{$site_info.site_seo_description}">
+    <!-- keywords -->
+    <meta name="keywords" content="{$site_info.site_seo_keywords}">
+    <!-- Page Title -->
+    <title>{$site_info.site_name|default=''}</title>
+    <!-- Favicon -->
+    <link href="__TMPL__/agency/img/favicon.ico" rel="icon">
+    <!-- Bundle -->
+    <link href="__TMPL__/vendor/css/bundle.min.css" rel="stylesheet">
+    <link href="__TMPL__/vendor/css/revolution-settings.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="__TMPL__/vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="__TMPL__/vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="__TMPL__/vendor/css/swiper.min.css" rel="stylesheet">
+    <link href="__TMPL__/vendor/css/cubeportfolio.min.css" rel="stylesheet">
+    <!-- Style Sheet -->
+    <link href="__TMPL__/agency/css/style.css" rel="stylesheet">
+</head>
+
+<body data-offset="90" data-spy="scroll" data-target=".navbar">
+
+<!-- Preloader -->
+<div class="preloader">
+    <div class="dot-container">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7"/>
+            </filter>
+        </defs>
+    </svg>
+</div>
+
+<!-- Ink Transition -->
+<div class="cd-transition-layer visible opening">
+    <div class="bg-layer"></div>
+</div>
+<!--/Preloader -->
+
+<!--Header Start-->
+<header class="cursor-light">
+
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font">
+        <div class="container">
+            <a class="logo link scroll" href="javascript:void(0)" title="Logo">
+                <!--Logo Default-->
+                <img alt="logo" class="logo-dark default" src="__TMPL__/agency/img/logo-white.png">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="agency">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link link scroll active" href="#home">首页</a>
+                    <a class="nav-link link scroll" href="#product">产品</a>
+                    <a class="nav-link link scroll" href="#portfolio">动态</a>
+                    <a class="nav-link link scroll" href="#clients">教程</a>
+                    <a class="nav-link link scroll" href="#blog">问题</a>
+                    <a class="nav-link link scroll" href="#contact">关于</a>
+                    <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
+                </div>
+            </div>
+
+            <!--Menu Button-->
+            <button class="fullnav-toggler link" id="full-menu-1" type="button">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+
+        </div>
+    </nav>
+
+    <!--Full menu-->
+    <div class="nav-holder main style-2 alt-font">
+
+        <!--Menu Button-->
+        <button class="fullnav-close link" type="button">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+
+        <div class="container">
+            <div class="shape-left">
+                <nav class="navbar full-menu-navigation left">
+                    <ul class="list-unstyled">
+                        <li><a class="link scroll" href="#home">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">首页</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#product">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">产品</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#portfolio">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">动态</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#clients">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">教程</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#blog">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">问题</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#contact">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">关于</span>
+                        </a></li>
+                    </ul>
+                    <span class="full-menu-dot" style="transform: scale(0);"></span>
+                </nav>
+                <img alt="shape" src="__TMPL__/agency/img/shape-8.png">
+            </div>
+            <div class="shape-right">
+                <div class="full-menu-detail hide-cursor">
+                    <h6 class="title">立即沟通</h6>
+                    <p><i class="fas fa-user-alt"></i>联系客服</p>
+                    <p><i class="fas fa-mobile-alt"></i>{$site_info.site_admin_phone|default=''}</p>
+                    <p><i class="fas fa-envelope"></i>{$site_info.site_admin_email|default=''}</p>
+                </div>
+                <img alt="shape" src="__TMPL__/agency/img/shape-7.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Get Quote Model Popup-->
+    <div class="animated-modal hidden quote-content" id="animatedModal">
+        <!--Heading-->
+        <div class="heading-area pb-2 mx-570">
+            <span class="sub-title">We are megaone company</span>
+            <h2 class="title mt-2">Lets start your <span class="alt-color js-rotating">project, website</span></h2>
+        </div>
+        <!--Contact Form-->
+        <form class="contact-form" id="modal-contact-form-data">
+            <div class="row">
+                <!--Result-->
+                <div class="col-12" id="quote_result"></div>
+
+                <!--Left Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required=""
+                               type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required=""
+                               type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type" required=""
+                               type="text">
+                    </div>
+                </div>
+
+                <!--Right Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required=""
+                               type="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country"
+                               required="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget" required=""
+                               type="text">
+                    </div>
+                </div>
+
+                <!--Full Column-->
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" id="quote_message"
+                                  name="userMessage" placeholder="Please explain your project in detail."></textarea>
+                    </div>
+                </div>
+
+                <!--Button-->
+                <div class="col-md-12">
+
+                    <div class="form-check">
+                        <label class="checkbox-lable">Contact by phone ins preffered
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn" href="javascript:void(0);"
+                       id="quote_submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</header>
+<!--Header End-->
+
+<!--Slider Start-->
+<section class="p-0 no-transition cursor-light" id="home">
+    <h2 class="d-none">hidden</h2>
+    <div class="rev_slider_wrapper fullscreen-container" data-alias="megaone-agency-1" data-source="gallery"
+         id="rev_slider_17_1_wrapper" style="background:transparent;padding:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+        <div class="rev_slider fullscreenbanner" data-version="5.4.8.1" id="rev_slider_17_1" style="display:none;">
+            <ul>    <!-- SLIDE  -->
+                <li data-description="" data-easein="default" data-easeout="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-index="rs-43" data-masterspeed="default" data-param1=""
+                    data-param10="" data-param2="" data-param3="" data-param4="" data-param5=""
+                    data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
+                    data-slotamount="default" data-title="Slide" data-transition="fade">
+                    <!--OVERLAY-->
+                    <div class="gradient-bg1 bg-overlay"></div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-frames='[{"delay":220,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;rZ:339;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-height="none" data-hoffset="['-26','-26','83','83']"
+                         data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['98','98','60','60']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['left','left','left','left']"
+                         data-y="['bottom','bottom','bottom','bottom']"
+                         id="slide-43-layer-5"
+
+                         style="z-index: 7;">
+                        <div class="rs-looped rs-slideloop" data-easing="" data-speed="5" data-xe="0" data-xs="0"
+                             data-ye="15" data-ys="-15"><img alt="" data-hh="['87px','87px','87px','87px']"
+                                                             data-no-retina
+                                                             data-ww="['44px','44px','44px','44px']" src="__TMPL__/agency/img/shape-6.png">
+                        </div>
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-basealign="slide"
+                         data-frames='[{"delay":210,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;rZ:358;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
+                         data-hoffset="['700','700','700','530']" data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+
+                         data-responsive_offset="on"
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['148','148','148','148']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-6"
+
+                         style="z-index: 8;">
+                        <div class="rs-looped rs-slideloop" data-easing="Power0.easeIn" data-speed="5" data-xe="0"
+                             data-xs="0" data-ye="20" data-ys="0"><img alt="" data-hh="['87px','87px','87px','87px']"
+                                                                       data-no-retina
+                                                                       data-ww="['24px','24px','24px','24px']"
+                                                                       src="__TMPL__/agency/img/shape-5.png"></div>
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-fontsize="['20','20','20','20']"
+                         data-frames='[{"delay":220,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
+                         data-hoffset="['275','275','171','120']" data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['270','270','261','190']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-7"
+
+                         style="z-index: 9;">
+                        <div class="rs-looped rs-wave" data-angle="0" data-origin="50% 50%" data-radius="15px"
+                             data-speed="12"><img alt="" data-hh="['67px','67px','67px','67px']"
+                                                        data-no-retina
+                                                        data-ww="['68px','68px','68px','68px']" src="__TMPL__/agency/img/shape-4.png"></div>
+                    </div>
+
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-frames='[{"delay":190,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-height="none" data-hoffset="['413','413','268','204']"
+                         data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['-205','-205','-259','-145']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-8"
+
+                         style="z-index: 10;">
+                        <div class="rs-looped rs-rotate" data-easing="Power0.easeIn" data-enddeg="360" data-origin="50% 50%"
+                             data-speed="15" data-startdeg="0"><img alt="" data-hh="['69px','69px','69px','69px']"
+                                                                        data-no-retina
+                                                                        data-ww="['67px','67px','67px','67px']"
+                                                                        src="__TMPL__/agency/img/shape-3.png"></div>
+                    </div>
+
+                    <!-- LAYER NR. 7 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-frames='[{"delay":190,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-height="none" data-hoffset="['436','436','259','145']"
+                         data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['204','204','96','73']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['left','left','left','left']"
+                         data-y="['top','top','top','top']"
+                         id="slide-43-layer-9"
+
+                         style="z-index: 11;">
+                        <div class="rs-looped rs-pendulum" data-easing="" data-enddeg="20" data-origin="50% 50%"
+                             data-speed="12" data-startdeg="-20"><img alt="" data-hh="['52px','52px','52px','52px']"
+                                                                        data-no-retina
+                                                                        data-ww="['51px','51px','51px','51px']"
+                                                                        src="__TMPL__/agency/img/shape-1.png"></div>
+                    </div>
+
+                    <!-- LAYER NR. 8 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-basealign="slide"
+                         data-frames='[{"delay":170,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
+                         data-hoffset="['39','39','94','58']" data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+
+                         data-responsive_offset="on"
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-type="image"
+
+                         data-voffset="['109','109','64','69']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['right','right','right','right']"
+                         data-y="['top','top','top','top']"
+                         id="slide-43-layer-10"
+
+                         style="z-index: 12;">
+                        <div class="rs-looped rs-slideloop" data-easing="" data-speed="2" data-xe="15" data-xs="0"
+                             data-ye="0" data-ys="0"><img alt="" data-hh="['14px','14px','14px','14px']"
+                                                          data-no-retina
+                                                          data-ww="['50px','50px','50px','50px']" src="__TMPL__/agency/img/shape-2.png"></div>
+                    </div>
+
+                    <!-- LAYER NR. 9 -->
+                    <div class="tp-caption tp-resizeme gradient-text1"
+                         data-fontsize="['70','65','60','50']"
+                         data-frames='[{"delay":660,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
+                         data-hoffset="['320','250','0','0']" data-lineheight="['80','75','70','60']"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['left','left','center','center']"
+                         data-type="text"
+
+                         data-voffset="['-125','-125','-125','-110']"
+                         data-whitespace="nowrap"
+                         data-width="['650','650','600','500']"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-13"
+
+                         style="z-index: 13; min-width: 650px; max-width: 650px; white-space: nowrap; font-size: 70px; line-height: 80px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">
+                        无双娱乐
+                    </div>
+
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-fontsize="['70','65','60','50']"
+                         data-frames='[{"delay":1840,"split":"chars","splitdelay":0.1,"speed":1000,"split_direction":"forward","frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]' data-height="none"
+                         data-hoffset="['320','250','0','0']" data-lineheight="['70','75','70','60']"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['left','left','center','center']"
+                         data-type="text"
+
+                         data-voffset="['-40','-40','-40','-40']"
+                         data-whitespace="nowrap"
+                         data-width="['650','650','600','500']"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-11"
+
+                         style="z-index: 14; min-width: 650px; max-width: 650px; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">
+                        无限梦想 从无双起航
+                    </div>
+
+                    <!-- LAYER NR. 11 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-fontsize="['20','20','18','17']"
+                         data-frames='[{"delay":2360,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
+                         data-hoffset="['325','210','0','0']" data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+
+                         data-textAlign="['left','left','center','center']"
+                         data-type="text"
+
+                         data-voffset="['80','75','65','57']"
+                         data-whitespace="normal"
+                         data-width="['651','550','600','500']"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-14"
+
+                         style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
+                         无双软件成立于2016年，长期秉持＂客户第一、用户至上＂的服务宗旨，为广大用户提供最优质的服务。
+                         携手阿里云提供最专业的彩票投注系统，提供最合理的赔率，多渠道的收付款方式，多元化的投注玩法让，为广大用户提供＂安全、可靠、极致＂的高品质娱乐体验。
+                    </div>
+
+                    <!-- LAYER NR. 12 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-actions='[{"event":"click","action":"scrollbelow","offset":"-50px","delay":"","speed":"1200","ease":"Power3.easeInOut"}]'
+                         data-frames='[{"delay":2970,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-height="none" data-hoffset="['325','260','0','0']"
+                         data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+                         data-textAlign="['left','left','center','center']"
+                         data-type="text"
+                         data-voffset="['200','186','176','156']"
+                         data-whitespace="nowrap"
+                         data-width="['650','650','600','500']"
+                         data-x="['center','center','center','center']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-15"
+
+                         style="z-index: 16; white-space: nowrap;">
+                        <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white scroll" href="#product">
+                            了解更多
+                            <div class="btn-hvr-setting">
+                                <ul class="btn-hvr-setting-inner">
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- LAYER NR. 13 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-frames='[{"delay":990,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-height="none" data-hoffset="['0','0','-412','-412']"
+                         data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingtop="[0,0,0,0]"
+                         data-responsive_offset="on"
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+
+                         data-type="image"
+                         data-visibility="['on','on','off','off']"
+
+                         data-voffset="['-1','-1','72','72']"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-x="['left','left','left','left']"
+                         data-y="['middle','middle','middle','middle']"
+                         id="slide-43-layer-16"
+
+                         style="z-index: 17;">
+                        <div class="rs-looped rs-slideloop" data-easing="" data-speed="5" data-xe="15" data-xs="-10"
+                             data-ye="0" data-ys="0"><img alt="" data-hh="['770px','510','510','510']"
+                                                          data-no-retina
+                                                          data-ww="['410px','350','350','350']" src="__TMPL__/agency/img/vector-art-1.png"></div>
+                    </div>
+  
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+    </div><!-- END REVOLUTION SLIDER -->
+</section>
+<!--Slider End-->
+
+<!--About Us-->
+<section class="pb-0" id="product">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInLeft">
+                <div class="heading-area">
+                    <span class="sub-title">我们的愿景</span>
+                    <h2 class="title">我们致力于为用户提供 <span class="alt-color js-rotating">安全, 可靠, 极致</span> 
+                        的完美体验
+                    </h2>
+                    <p class="para">我们的技术团队拥有多年行业经验，经过长时间的迭代更新，稳定性得到广大用户的一致认可。强大的主流功能完美贴合用户习惯。.</p>
+                    <a class="btn btn-large btn-rounded btn-pink btn-hvr-blue mt-3 scroll" href="#counters">了解更多
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight">
+                <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
+                    <img alt="vector" src="__TMPL__/agency/img/vector-art-2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--About Us End-->
+
+<!--Services Start-->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="process-wrapp">
+                    <span class="pro-step blue"><i aria-hidden="true" class="fas fa-folder-open"></i></span>
+                    <h4 class="service-heading">数名十多年相关行业从业经验的核心成员，熟知用户需求和痛点。对市场有强力的把控能力。</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-wrapp">
+                    <span class="pro-step midnight"><i aria-hidden="true" class="fas fa-code"></i></span>
+                    <h4 class="service-heading">行业最具创新力的团队，开发技术市场领先，为框架内各类系统稳定性奠定坚实的基础。</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-wrapp">
+                    <span class="pro-step purple"><i aria-hidden="true" class="fas fa-cog"></i></span>
+                    <h4 class="service-heading">运维经验丰富，高效率服务器集群。应急响应迅速，防御能力强。</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-wrapp">
+                    <span class="pro-step pink"><i aria-hidden="true" class="fas fa-edit"></i></span>
+                    <h4 class="service-heading">界面交互友好，功能目录清晰。操作上手快，满足用户需求的情况下，迭代更新快。</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Services End-->
+
+<!--Counters Start-->
+<section class="gradient-bg2" id="counters">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pl-lg-4 order-lg-2 wow fadeInRight">
+                <div class="heading-area">
+                    <span class="sub-title text-white">我们的历程</span>
+                    <h2 class="title text-white">我们有十余年业内<span class="js-rotating">开发, 运营</span>经验.
+                    </h2>
+                    <p class="para text-white">多年来，我们不断迭代，推陈出新，致力于打造最完美的娱乐平台，支持多款热门游戏，满足所有用户需求.</p>
+                </div>
+                <ul class="counter-list list-unstyled">
+                    <li class="counter-item">
+                        <i aria-hidden="true" class="fas fa-users text-white"></i>
+                        <h6 class="counter-number text-white"><span class="count">1500</span>+</h6>
+                        <p class="sub-title text-white">房主</p>
+                    </li>
+                    <li class="counter-item">
+                        <i aria-hidden="true" class="fas fa-list-alt text-white"></i>
+                        <h6 class="counter-number text-white"><span class="count">30</span>+</h6>
+                        <p class="sub-title text-white">独立客户</p>
+                    </li>
+                    <li class="counter-item">
+                        <i aria-hidden="true" class="fas fa-award text-white"></i>
+                        <h6 class="counter-number text-white"><span class="count">100000</span>+</h6>
+                        <p class="sub-title text-white">玩家</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 wow fadeInLeft">
+                <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
+                    <img alt="vector" src="__TMPL__/agency/img/vector-art-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Counters End-->
+
+<!--Team Start-->
+<section class="text-center" id="team">
+    <div class="container">
+        <!--Row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-area mx-570 mb-5">
+                    <span class="sub-title">我们支持的游戏</span>
+                    <h2 class="title">我们目前支持<br/>
+                        <span class="alt-color js-rotating">时时彩, 赛车&nbsp;&nbsp;, 快三&nbsp;&nbsp;, 蛋蛋&nbsp;&nbsp;</span></h2>
+                    <p class="para">并可支持自定义彩种、飞单等功能.</p>
+                </div>
+            </div>
+        </div>
+        <!--Row-->
+        <div class="row wow fadeInUp">
+            <div class="col-md-4">
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/byjsssc.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/azxy5.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/bgpk10.png">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/jsks.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/pc蛋蛋.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/azxy10.png">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/byjssc.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/byjsft.png">
+                </div>
+                <div class="team-item">
+                    <img class="team-image" alt="" src="__TMPL__/agency/img/byjsssc.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Team End-->
+
+<!--Parallax Start-->
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInLeft">
+                <div class="heading-area">
+                    <span class="sub-title">我们的优势</span>
+                    <h2 class="title"><span class="main-color js-rotating">客户端, 网页端, 管理端</span> 以及创新的架构</h2>
+                    <p class="para">我们为玩家提供IOS和Android平台的APP软件，使用体验处于业内顶尖水平，也为用户提供网页端程序，使用同一帐号可以随时畅玩。同时为客户提供易用的管理平台，适配PC端和手机端。可以随时处理玩家需求，统计各种数据.</p>
+                    <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink mt-3 scroll" href="#portfolio">了解更多
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight">
+                <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
+                    <img alt="image" src="__TMPL__/agency/img/art-4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Parallax End-->
+
+<!--Testimonial Start-->
+<section class="gradient-bg1 text-center" id="clients">
+    <div class="container">
+
+        <!--Row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-area mx-570 mb-5">
+                    <h2 class="title text-white m-0">Some <span class="js-rotating">great, ideal</span> words from
+                        our clients</h2>
+                </div>
+            </div>
+        </div>
+
+        <!--Row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel wow zoomIn" id="testimonial-slider">
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+                            egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
+                            ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce ut diam quis nulla faucibus venenatis. </p>
+                        <h5 class="name gradient-text1">David Villas</h5>
+                        <span class="designation">Designer, Company Name</span>
+                        <ul class="ratings list-unstyled">
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                            <li><i aria-hidden="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Testimonial Thumbs-->
+        <div class="owl-dots" id="testimonials-avatar">
+            <!--data-position[top,right,bottom,left]-->
+            <button class="owl-dot active" data-position="22%,auto,auto,5%">
+                <img alt="image" src="agency/img/avatar-1.png"></button>
+            <button class="owl-dot active" data-position="30%,auto,auto,16%">
+                <img alt="image" src="agency/img/avatar-2.png"></button>
+            <button class="owl-dot active" data-position="auto,auto,38%,7%">
+                <img alt="image" src="agency/img/avatar-3.png"></button>
+            <button class="owl-dot active" data-position="auto,auto,23%,18%">
+                <img alt="image" src="agency/img/avatar-7.png"></button>
+            <!--data-position[top,right,bottom,left]-->
+            <button class="owl-dot active" data-position="20%,19%,auto,auto">
+                <img alt="image" src="agency/img/avatar-5.png"></button>
+            <button class="owl-dot active" data-position="28%,6%,auto,auto">
+                <img alt="image" src="agency/img/avatar-6.png"></button>
+            <button class="owl-dot active" data-position="40%,15%,auto,auto">
+                <img alt="image" src="agency/img/avatar-4.png"></button>
+            <button class="owl-dot active" data-position="auto,21%,22%,auto">
+                <img alt="image" src="agency/img/avatar-2.png"></button>
+        </div>
+    </div>
+</section>
+<!--Testimonial End-->
+
+<!--Blog Start-->
+<section class="bg-light" id="blog">
+    <div class="container">
+        <!--Row-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="heading-area mx-570 pb-lg-5 mb-5">
+                    <span class="sub-title">期待与您的合作</span>
+                </div>
+            </div>
+        </div>
+        <!--Row-->
+        <div class="row wow fadeInUp">
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="news-img" src="__TMPL__/agency/img/art-1.jpg">
+                    <div class="news-text-box">
+                        <a href="__TMPL__/agency/blog-list.html"><h4 class="news-title">独立运营</h4></a>
+                        <p class="para">您可以购买我们的全套产品独立部署运营，由我们提供技术支持</p>
+                    </div>
+                </div>
+            </div>
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="news-img" src="__TMPL__/agency/img/art-2.jpg">
+                    <div class="news-text-box">
+                        <a href="__TMPL__/agency/blog-list.html"><h4 class="news-title">产品代理</h4></a>
+                        <p class="para">您可以代理我们的产品，零成本运营，降低风险</p>
+                    </div>
+                </div>
+            </div>
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="news-img" src="__TMPL__/agency/img/art-3.jpg">
+                    <div class="news-text-box">
+                        <a href="javascript:void(0);"><h4 class="news-title">广告合作</h4></a>
+                        <p class="para">您可以在我们的产品中投放广告，获取更多曝光率</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Blog End-->
+
+<!--Client Map-->
+<section class="gradient-bg2" id="client">
+    <h2 class="d-none">hidden</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--Client Slider-->
+                <div class="owl-carousel partners-slider">
+                    <!--Item-->
+                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-1.png"></div>
+                    <!--Item-->
+                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-2.png"></div>
+                    <!--Item-->
+                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-3.png"></div>
+                    <!--Item-->
+                    <div class="logo-item"><img alt="client-logo" src="__TMPL__/agency/img/client-4.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Client End-->
+
+<!--Map Start-->
+<div class="p-0 gradient-bg2 map-area">
+    <div class="container">
+        <!--Map Initialize-->
+        <div class="full-map" id="map"></div>
+    </div>
+</div>
+<!--Map End-->
+
+<!--Contact Start-->
+<section class="contact-us" id="contact">
+
+    <div class="container">
+
+        <div class="row align-items-top">
+
+            <div class="col-lg-5 order-lg-2 wow fadeInRight">
+                <div class="contact-detail">
+                    <div class="contact-dots" data-dots=""></div>
+                    <!--Heading-->
+                    <div class="heading-area pb-5">
+                        <h2 class="title mt-0 pb-1">Our Location</h2>
+                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered .</p>
+                    </div>
+
+                    <!--Address-->
+                    <ul class="address list-unstyled">
+                        <li>
+                            <span class="address-icon gradient-text2"><i aria-hidden="true"
+                                                                         class="fas fa-map-marker-alt"></i></span>
+                            <span class="address-text">123 Park Avenue, New York,United States</span>
+                        </li>
+                        <li>
+                            <span class="address-icon gradient-text2"><i aria-hidden="true"
+                                                                         class="fas fa-phone-volume"></i></span>
+                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">+1 631 1234 5678</a><a
+                                    href="javascript:void(0)">+1 631 1234 5678</a></span>
+                        </li>
+                        <li>
+                            <span class="address-icon gradient-text2"><i aria-hidden="true"
+                                                                         class="fas fa-paper-plane"></i></span>
+                            <span class="address-text"><a class="mr-3 alt-color" href="javascript:void(0)">email@website.com</a><a
+                                    class="mr-3 alt-color" href="javascript:void(0)">abc@website.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-7 mt-4 pt-3 mt-lg-0 pt-lg-0 wow fadeInLeft">
+                <!--Heading-->
+                <div class="heading-area pb-2">
+                    <h2 class="title mt-0">Get In Touch</h2>
+                </div>
+                <!--Contact Form-->
+                <form class="contact-form" id="contact-form-data">
+                    <div class="row">
+                        <!--Result-->
+                        <div class="col-12" id="result"></div>
+
+                        <!--Left Column-->
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <input class="form-control" id="your_name" name="userName" placeholder="Name" required=""
+                                       type="text">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="your_email" name="userEmail" placeholder="Email" required=""
+                                       type="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="subject" name="userSubject" placeholder="Subject" required=""
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <!--Right Column-->
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" name="userMessage"
+                                          placeholder="Message"></textarea>
+                            </div>
+                        </div>
+
+                        <!--Button-->
+                        <div class="col-md-12">
+                            <a class="btn btn-large btn-rounded btn-purple btn-hvr-blue d-block mt-4 contact_btn" href="javascript:void(0);"
+                               id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
+                                <div class="btn-hvr-setting">
+                                    <ul class="btn-hvr-setting-inner">
+                                        <li class="btn-hvr-effect"></li>
+                                        <li class="btn-hvr-effect"></li>
+                                        <li class="btn-hvr-effect"></li>
+                                        <li class="btn-hvr-effect"></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--Contact End-->
+
+<!--Footer Start-->
+<footer class="footer-style-1 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <!--Social-->
+            <div class="col-md-6">
+                <div class="footer-social">
+                    <ul class="list-unstyled">
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                  class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                  class="fab fa-google-plus-g"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                  class="fab fa-instagram"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
+                                                                                    class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Text-->
+            <div class="col-md-6 text-md-right">
+                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer End-->
+
+<!--Animated Cursor-->
+<div id="aimated-cursor">
+    <div id="cursor">
+        <div id="cursor-loader"></div>
+    </div>
+</div>
+<!--Animated Cursor End-->
+
+<!--Scroll Top Start-->
+<span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
+<!--Scroll Top End-->
+
+<!-- JavaScript -->
+<script src="__TMPL__/vendor/js/bundle.min.js"></script>
+<!-- Plugin Js -->
+<script src="__TMPL__/vendor/js/jquery.appear.js"></script>
+<script src="__TMPL__/vendor/js/jquery.fancybox.min.js"></script>
+<script src="__TMPL__/vendor/js/owl.carousel.min.js"></script>
+<script src="__TMPL__/vendor/js/swiper.min.js"></script>
+<script src="__TMPL__/vendor/js/morphext.min.js"></script>
+<script src="__TMPL__/vendor/js/TweenMax.min.js"></script>
+<script src="__TMPL__/vendor/js/wow.min.js"></script>
+<script src="__TMPL__/vendor/js/jquery.cubeportfolio.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="__TMPL__/vendor/js/jquery.themepunch.tools.min.js"></script>
+<script src="__TMPL__/vendor/js/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION EXTENSIONS -->
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="__TMPL__/vendor/js/extensions/revolution.extension.video.min.js"></script>
+<!-- custom script -->
+<script src="__TMPL__/vendor/js/contact_us.js"></script>
+<script src="__TMPL__/agency/js/script.js"></script>
+
+</body>
+</html>
