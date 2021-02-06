@@ -1,0 +1,635 @@
+2021-02-03T01:43:38.415321Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T01:43:38.415426Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T01:43:38.415505Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2021-02-03T01:43:38.446530Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T01:43:41.782782Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.802703Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.819307Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.840397Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.855981Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.870338Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.885668Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.898849Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.914069Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:41.930096Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:45.354036Z 1 [Warning] [MY-012579] [InnoDB] fallocate(24, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:50.351623Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2021-02-03T01:43:54.746840Z 5 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.748713Z 5 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.750993Z 5 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.751964Z 5 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.752636Z 5 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.753425Z 5 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.754159Z 5 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.755392Z 5 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.756531Z 5 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:43:54.788462Z 5 [Warning] [MY-012579] [InnoDB] fallocate(29, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:43:56.898003Z 0 [System] [MY-013170] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server has completed
+2021-02-03T01:44:00.284417Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T01:44:00.284510Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T01:44:00.284619Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 80
+2021-02-03T01:44:00.295528Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T01:44:01.268386Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.281562Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.294182Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.307162Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.324562Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.363481Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.377768Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.392261Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.405708Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:01.418832Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+mbind: Operation not permitted
+2021-02-03T01:44:02.052645Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T01:44:02.064848Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T01:44:02.093790Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.094819Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.096193Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.097392Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.098162Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.099340Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.100271Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.111614Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.112762Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:02.149546Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2021-02-03T01:44:02.289332Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+2021-02-03T01:44:08.746497Z 10 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.750913Z 10 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.751789Z 10 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.753177Z 10 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.754624Z 10 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.755641Z 10 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.756551Z 10 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.758594Z 10 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:08.759936Z 10 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:10.824764Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T01:44:11.199034Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T01:44:11.199126Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T01:44:11.199208Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T01:44:11.209059Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T01:44:12.076686Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.092504Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.105259Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.117194Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.128660Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.140190Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.151895Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.162846Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.174429Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.186013Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:44:12.784114Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T01:44:12.801803Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T01:44:12.845837Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.895064Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.896251Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.897646Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.899516Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.900616Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.902381Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.926415Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.927850Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:44:12.966025Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T01:44:13.083508Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-03T01:52:36.394472Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T01:52:52.726080Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T01:52:52.726268Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T01:52:52.726392Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T01:52:52.737721Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T01:52:53.440571Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.456787Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.467560Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.478351Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.488855Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.499943Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.510759Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.519662Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.528923Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.537432Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T01:52:53.921862Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T01:52:53.931930Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T01:52:53.959364Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.960231Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.960983Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.961738Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.962548Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.963217Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.963964Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.989992Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:53.990658Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T01:52:54.013354Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T01:52:54.067010Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-03T03:04:36.515159Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T03:04:38.464984Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T03:04:38.465127Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T03:04:38.465232Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T03:04:38.477010Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T03:04:39.401541Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.417582Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.434657Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.452796Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.487621Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.511494Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.528229Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.543686Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.559926Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:39.576645Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:04:40.178282Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T03:04:40.190141Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T03:04:40.223452Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.224411Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.225192Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.226346Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.227652Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.228745Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.229944Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.267334Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.268083Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:04:40.294196Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T03:04:40.328493Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-03T03:05:17.775459Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T03:05:19.725064Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T03:05:19.725191Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T03:05:19.725290Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T03:05:19.735196Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T03:05:20.676813Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.689781Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.701718Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.712241Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.724636Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.738347Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.753366Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.768270Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.782113Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:20.795550Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:05:21.216315Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T03:05:21.226340Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T03:05:21.251139Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.252559Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.253467Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.254186Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.255001Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.255779Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.256800Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.286759Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.287477Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:05:21.316288Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T03:05:21.380865Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-03T03:19:35.043819Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-02-03T03:19:35.045659Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 10  user: 'root'.
+2021-02-03T03:19:36.405770Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T03:19:38.278862Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T03:19:38.278957Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T03:19:38.279163Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T03:19:38.292438Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T03:19:39.368546Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.377879Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.388532Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.399194Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.409191Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.421447Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.432332Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.446404Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.466692Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.477263Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T03:19:39.940425Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T03:19:39.949321Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T03:19:39.975504Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.976599Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.977282Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.978104Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.979253Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.980229Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:39.981360Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:40.013472Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:40.014301Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T03:19:40.042326Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T03:19:40.100198Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-03T10:17:25.228496Z 8 [Warning] [MY-012579] [InnoDB] fallocate(38, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:25.267762Z 8 [Warning] [MY-012579] [InnoDB] fallocate(38, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:25.338598Z 8 [Warning] [MY-012579] [InnoDB] fallocate(40, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:25.393415Z 8 [Warning] [MY-012579] [InnoDB] fallocate(41, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:26.947026Z 8 [Warning] [MY-012579] [InnoDB] fallocate(45, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:27.093493Z 8 [Warning] [MY-012579] [InnoDB] fallocate(49, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:27.139681Z 8 [Warning] [MY-012579] [InnoDB] fallocate(49, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:27.192533Z 8 [Warning] [MY-012579] [InnoDB] fallocate(49, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.215750Z 8 [Warning] [MY-012579] [InnoDB] fallocate(55, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.321309Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.365328Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.425073Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.478697Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.524778Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:17:28.569272Z 8 [Warning] [MY-012579] [InnoDB] fallocate(57, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+mbind: Operation not permitted
+2021-02-03T10:22:47.704405Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8  user: 'root'.
+2021-02-03T10:22:47.708830Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-02-03T10:22:47.710229Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 10  user: 'root'.
+2021-02-03T10:22:49.505684Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-03T10:22:51.828240Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-03T10:22:51.828421Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-03T10:22:51.828521Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-03T10:22:51.841498Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-03T10:22:52.682370Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.696247Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.708257Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.723050Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.735700Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.747636Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.759317Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.771163Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.783835Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:52.795870Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-03T10:22:53.275664Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-03T10:22:53.289729Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-03T10:22:53.329799Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.331152Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.332218Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.333088Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.334097Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.334885Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.335736Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.382940Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.383931Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-03T10:22:53.422332Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-03T10:22:53.451044Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-02-04T08:31:24.973887Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T08:31:41.958217Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T08:31:41.958362Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T08:31:41.958451Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T08:31:41.974930Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T08:31:43.337061Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.357120Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.380382Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.396751Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.411858Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.425634Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.437433Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.457426Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.484834Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:43.507571Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T08:31:44.260590Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T08:31:44.272390Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T08:31:44.310566Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.321639Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.327933Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.337412Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.339251Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.340550Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.341561Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.377693Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.378275Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T08:31:44.402792Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T08:31:44.606812Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-02-04T08:58:52.030286Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T09:05:59.987596Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T09:05:59.987764Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T09:05:59.987876Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T09:05:59.999302Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T09:06:01.020315Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.041013Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.057285Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.070297Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.081195Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.092371Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.103248Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.114738Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.128326Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.141762Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:06:01.704352Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T09:06:01.716618Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T09:06:01.755980Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.757173Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.758334Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.759238Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.760411Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.761275Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.762456Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.811430Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.812433Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:06:01.847407Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T09:06:02.105041Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-04T09:16:38.193791Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T09:16:58.264465Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T09:16:58.264819Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T09:16:58.264943Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T09:16:58.284974Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T09:16:59.138802Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.156028Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.168645Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.180194Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.190083Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.199948Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.209878Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.219513Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.229426Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.238888Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:16:59.824871Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T09:16:59.834047Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T09:16:59.855408Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.856465Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.857359Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.858220Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.859390Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.860359Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.861238Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.894499Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.895398Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:16:59.924492Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T09:17:00.007381Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-04T09:21:25.228079Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8  user: 'root'.
+2021-02-04T09:21:25.228954Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-02-04T09:21:26.377468Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T09:22:02.716237Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T09:22:02.716323Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T09:22:02.716401Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T09:22:02.724925Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T09:22:03.495233Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.506998Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.518413Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.529504Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.540546Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.551591Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.562653Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.574255Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.586144Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:03.597095Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T09:22:04.032780Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T09:22:04.042180Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T09:22:04.066233Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.068109Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.069840Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.070947Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.071923Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.072919Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.077255Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.113891Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.114452Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T09:22:04.137230Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T09:22:04.173804Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-04T15:19:09.464613Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8  user: 'root'.
+2021-02-04T15:19:09.466608Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-02-04T15:19:10.921114Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T15:19:12.897955Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T15:19:12.898111Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T15:19:12.899239Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T15:19:12.911162Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T15:19:13.969800Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:13.982533Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:13.995933Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.007268Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.020177Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.032768Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.050809Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.066064Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.079271Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.090721Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:19:14.626508Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T15:19:14.639298Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T15:19:14.680717Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.681902Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.682763Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.683767Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.684735Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.685953Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.686938Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.758158Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.758923Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T15:19:14.792324Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T15:19:15.014804Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-04T15:20:16.867680Z 10 [Warning] [MY-012579] [InnoDB] fallocate(34, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:17.627283Z 12 [Warning] [MY-012579] [InnoDB] fallocate(35, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:17.918642Z 13 [Warning] [MY-012579] [InnoDB] fallocate(35, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:18.230529Z 14 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:19.007812Z 16 [Warning] [MY-012579] [InnoDB] fallocate(37, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:19.343601Z 17 [Warning] [MY-012579] [InnoDB] fallocate(38, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:19.942837Z 19 [Warning] [MY-012579] [InnoDB] fallocate(38, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:20.276979Z 20 [Warning] [MY-012579] [InnoDB] fallocate(38, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:20.879745Z 22 [Warning] [MY-012579] [InnoDB] fallocate(39, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:21.523866Z 24 [Warning] [MY-012579] [InnoDB] fallocate(39, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:22.160018Z 26 [Warning] [MY-012579] [InnoDB] fallocate(39, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:22.461689Z 27 [Warning] [MY-012579] [InnoDB] fallocate(40, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:22.793222Z 28 [Warning] [MY-012579] [InnoDB] fallocate(40, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:23.080212Z 29 [Warning] [MY-012579] [InnoDB] fallocate(40, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:23.692630Z 31 [Warning] [MY-012579] [InnoDB] fallocate(41, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:24.043268Z 32 [Warning] [MY-012579] [InnoDB] fallocate(42, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:24.331949Z 33 [Warning] [MY-012579] [InnoDB] fallocate(42, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:24.619278Z 34 [Warning] [MY-012579] [InnoDB] fallocate(42, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:24.972839Z 35 [Warning] [MY-012579] [InnoDB] fallocate(43, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:25.305277Z 36 [Warning] [MY-012579] [InnoDB] fallocate(43, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:25.633897Z 37 [Warning] [MY-012579] [InnoDB] fallocate(43, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:25.926062Z 38 [Warning] [MY-012579] [InnoDB] fallocate(43, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:26.227931Z 39 [Warning] [MY-012579] [InnoDB] fallocate(44, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:26.775724Z 41 [Warning] [MY-012579] [InnoDB] fallocate(44, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:27.115990Z 42 [Warning] [MY-012579] [InnoDB] fallocate(45, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:27.441175Z 43 [Warning] [MY-012579] [InnoDB] fallocate(45, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:27.778192Z 44 [Warning] [MY-012579] [InnoDB] fallocate(46, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:28.102168Z 45 [Warning] [MY-012579] [InnoDB] fallocate(46, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:28.388131Z 46 [Warning] [MY-012579] [InnoDB] fallocate(46, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:28.721885Z 47 [Warning] [MY-012579] [InnoDB] fallocate(46, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:29.026340Z 48 [Warning] [MY-012579] [InnoDB] fallocate(46, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:29.427274Z 49 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:29.800474Z 50 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:30.145014Z 51 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:30.583217Z 52 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:30.937099Z 53 [Warning] [MY-012579] [InnoDB] fallocate(36, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T15:20:31.280461Z 54 [Warning] [MY-012579] [InnoDB] fallocate(45, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-04T16:59:54.814176Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 346  user: 'root'.
+2021-02-04T16:59:54.819330Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 347  user: 'root'.
+2021-02-04T16:59:56.393836Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-04T16:59:58.444666Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-04T16:59:58.444780Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-04T16:59:58.444888Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-04T16:59:58.456267Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-04T16:59:59.455989Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.478292Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.490113Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.499945Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.509449Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.518949Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.528696Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.539189Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.549517Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T16:59:59.559876Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T17:00:00.156839Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T17:00:00.167687Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-04T17:00:00.194808Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.195825Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.197067Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.197827Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.199103Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.199874Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.200836Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.229925Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.230969Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-04T17:00:00.255604Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-04T17:00:00.502338Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-02-04T18:05:28.335975Z 283 [Warning] [MY-012579] [InnoDB] fallocate(66, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T18:07:12.073550Z 283 [Warning] [MY-012579] [InnoDB] fallocate(67, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T18:28:44.990894Z 283 [Warning] [MY-012579] [InnoDB] fallocate(67, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T18:44:57.828256Z 283 [Warning] [MY-012579] [InnoDB] fallocate(67, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-04T21:10:01.486914Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 283  user: 'root'.
+2021-02-04T21:10:01.492663Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 284  user: 'root'.
+2021-02-04T21:10:02.749964Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-06T09:29:04.472706Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-06T09:29:04.472793Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-06T09:29:04.472930Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-06T09:29:04.482183Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-06T09:29:05.350268Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.360754Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.371923Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.384201Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.399045Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.411948Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.425427Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.438564Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.454157Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.465895Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:05.929238Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T09:29:05.952106Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-06T09:29:06.003689Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.004969Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.005974Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.007095Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.008352Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.009096Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.010334Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.049694Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.050263Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:06.073425Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-06T09:29:06.307945Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-06T09:29:17.551279Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-06T09:29:17.551355Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-06T09:29:17.551408Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-06T09:29:17.559127Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-06T09:29:18.439185Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.453875Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.464351Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.471933Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.480490Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.491051Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.501320Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.508142Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.520436Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.529965Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:29:18.915656Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T09:29:18.924291Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-06T09:29:18.944841Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.945689Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.946441Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.947005Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.947855Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.948736Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.949273Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.981233Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.982457Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:29:18.999808Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-06T09:29:19.062692Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-06T09:32:14.736741Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-06T09:32:24.770995Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-06T09:32:24.771074Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-06T09:32:24.771126Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-06T09:32:24.786394Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-06T09:32:25.477835Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.484138Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.490484Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.497202Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.503709Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.510203Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.516721Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.523481Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.530485Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.536916Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:32:25.863835Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T09:32:25.874486Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-06T09:32:25.892084Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.893326Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.893859Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.894343Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.895008Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.895851Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.896341Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.923303Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.923902Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:32:25.943370Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-06T09:32:26.009022Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-06T09:33:00.153327Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-06T09:33:00.153406Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-06T09:33:00.153462Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-06T09:33:00.160309Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-06T09:33:00.791301Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.800719Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.809531Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.818579Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.827336Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.837400Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.846179Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.855323Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.864287Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:00.873377Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:01.283376Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T09:33:01.290590Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-06T09:33:01.308193Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.309158Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.309556Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.310020Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.310682Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.311146Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.311614Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.337831Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.338458Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:01.354841Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-06T09:33:01.439907Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-02-06T09:33:40.146402Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-02-06T09:33:43.850968Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-02-06T09:33:43.851122Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-06T09:33:43.851191Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-02-06T09:33:43.859772Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-02-06T09:33:44.488276Z 1 [Warning] [MY-012579] [InnoDB] fallocate(14, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.497734Z 1 [Warning] [MY-012579] [InnoDB] fallocate(15, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.506905Z 1 [Warning] [MY-012579] [InnoDB] fallocate(16, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.515900Z 1 [Warning] [MY-012579] [InnoDB] fallocate(17, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.524572Z 1 [Warning] [MY-012579] [InnoDB] fallocate(18, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.533502Z 1 [Warning] [MY-012579] [InnoDB] fallocate(19, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.542445Z 1 [Warning] [MY-012579] [InnoDB] fallocate(20, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.551971Z 1 [Warning] [MY-012579] [InnoDB] fallocate(21, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.562101Z 1 [Warning] [MY-012579] [InnoDB] fallocate(22, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.570549Z 1 [Warning] [MY-012579] [InnoDB] fallocate(23, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 16384) returned errno: 22
+2021-02-06T09:33:44.981045Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T09:33:44.988593Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-02-06T09:33:45.006870Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.007578Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.008041Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.008615Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.009234Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.009739Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.010264Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.037262Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.037747Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-02-06T09:33:45.054168Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-02-06T09:33:45.130876Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
