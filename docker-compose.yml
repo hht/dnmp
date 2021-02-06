@@ -10,7 +10,7 @@ services:
     container_name: nginx
     ports:
       - "${NGINX_HTTP_HOST_PORT}:81"
-      - "${NGINX_HTTPS_HOST_PORT}:443"
+      - "${NGINX_HTTPS_HOST_PORT}:448"
     volumes:
       - ${SOURCE_DIR}:/www/:rw
       - ${NGINX_SSL_CERTIFICATE_DIR}:/ssl:rw
